@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-import Dashboard from "./pages/Dashboard";
-
+import AppRoutes from "./routes/AppRoutes";
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Dashboard />
+      <AppRoutes />
     </>
   );
 }
